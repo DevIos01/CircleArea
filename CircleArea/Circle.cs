@@ -10,4 +10,10 @@ class Circle
     {
         _radius = radius;
     }
+
+    // Returns the area of the circle (radius * radius * pi)
+    public double GetArea()
+    {
+        return _radius * _radius * Math.PI;
+    }
 }
