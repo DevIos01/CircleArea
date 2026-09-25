@@ -22,4 +22,11 @@ class Circle
     {
         return 2 * Math.PI * _radius;
     }
+
+    // Returns the volume if the circle was a sphere (4/3 * pi * radius^3)
+    // 4.0 / 3.0 is used so it is not integer division (4 / 3 would be 1)
+    public double GetSphereVolume()
+    {
+        return 4.0 / 3.0 * Math.PI * _radius * _radius * _radius;
+    }
 }

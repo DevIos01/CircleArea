@@ -15,5 +15,9 @@ class Program
         // Print the circumference of each circle
         Console.WriteLine($"Omkretsen på en cirkel med radie 5 är {smallCircle.GetCircumference():F2}");
         Console.WriteLine($"Omkretsen på en cirkel med radie 6 är {bigCircle.GetCircumference():F2}");
+
+        // Print the volume if the circles were spheres
+        Console.WriteLine($"Volymen på en sfär med radie 5 är {smallCircle.GetSphereVolume():F2}");
+        Console.WriteLine($"Volymen på en sfär med radie 6 är {bigCircle.GetSphereVolume():F2}");
     }
 }
