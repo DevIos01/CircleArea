@@ -19,5 +19,9 @@ class Program
         // Print the volume if the circles were spheres
         Console.WriteLine($"Volymen på en sfär med radie 5 är {smallCircle.GetSphereVolume():F2}");
         Console.WriteLine($"Volymen på en sfär med radie 6 är {bigCircle.GetSphereVolume():F2}");
+
+        // Create a triangle and print its area
+        Triangle triangle = new Triangle(5, 3);
+        Console.WriteLine($"Arean på en triangel med basen 5 och höjden 3 är {triangle.GetArea():F2}");
     }
 }
