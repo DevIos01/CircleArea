@@ -20,8 +20,9 @@ class Program
         Console.WriteLine($"Volymen på en sfär med radie 5 är {smallCircle.GetSphereVolume():F2}");
         Console.WriteLine($"Volymen på en sfär med radie 6 är {bigCircle.GetSphereVolume():F2}");
 
-        // Create a triangle and print its area
-        Triangle triangle = new Triangle(5, 3);
-        Console.WriteLine($"Arean på en triangel med basen 5 och höjden 3 är {triangle.GetArea():F2}");
+        // Create a triangle and print its area and perimeter
+        Triangle triangle = new Triangle(6, 4, 5, 5);
+        Console.WriteLine($"Arean på en triangel med basen 6 och höjden 4 är {triangle.GetArea():F2}");
+        Console.WriteLine($"Omkretsen på en triangel med sidorna 6, 5 och 5 är {triangle.GetPerimeter():F2}");
     }
 }
