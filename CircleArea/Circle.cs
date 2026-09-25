@@ -16,4 +16,10 @@ class Circle
     {
         return _radius * _radius * Math.PI;
     }
+
+    // Returns the circumference of the circle (2 * pi * radius)
+    public double GetCircumference()
+    {
+        return 2 * Math.PI * _radius;
+    }
 }
